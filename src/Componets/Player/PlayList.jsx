@@ -86,7 +86,7 @@ return <h1 >Ошибка загрузки!{songError}</h1>
     <AudioPlayer className={classes.rap_container}
       // style={{ width: "300px" }}
       style={{ borderTopLeftRadius: "0rem", borderTopRightRadius: "0rem",
-       borderBottomLeftRadius: "1em", borderBottomRightRadius: "1em"  }}
+       borderBottomLeftRadius: "1em", borderBottomRightRadius: "1em", backgroundColor: "#green"  }}
       // autoPlay
       // layout="horizontal"
       src={audioList[trackIndex].src}

@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import classes from "../CaverPage/CaverPage.module.css"
 import ReactPlayer from "react-player";
 import   AudioList from "../Player/PlayList.jsx" ;

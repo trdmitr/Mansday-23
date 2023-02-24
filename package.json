@@ -1,8 +1,8 @@
 {
-  "name": "helavissa2022",
+  "name": "mansday-2023",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://trdmitr.github.io/Helavissa2022/",
+  "homepage": "https://trdmitr.github.io/Mansday-23/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,8 +19,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
