@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/Mansday-23/static/media/Pompadur.e8ddf8e3.ttf"
   },
   {
-    "revision": "0f784d9b5e96cbab097ddac6df6452f6",
+    "revision": "4bc1121b4b950a298406025aa4119959",
     "url": "/Mansday-23/index.html"
   }
 ];
