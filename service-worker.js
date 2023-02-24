@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Mansday-23/precache-manifest.94d8e3bf132d202eba6f4863896271b9.js"
+  "/Mansday-23/precache-manifest.c6c413bfe41da040c9bf6943ae37eb0d.js"
 );
 
 workbox.clientsClaim();

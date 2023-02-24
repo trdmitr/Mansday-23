@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "caafc2aa5a344fece120",
-    "url": "/Mansday-23/static/css/main.580bcb8a.chunk.css"
+    "revision": "469181f727d8476506f8",
+    "url": "/Mansday-23/static/css/main.04eec7de.chunk.css"
   },
   {
-    "revision": "caafc2aa5a344fece120",
-    "url": "/Mansday-23/static/js/main.caafc2aa.chunk.js"
+    "revision": "469181f727d8476506f8",
+    "url": "/Mansday-23/static/js/main.469181f7.chunk.js"
   },
   {
     "revision": "9e6c96c48f2fd00bc38b",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/Mansday-23/static/media/Pompadur.e8ddf8e3.ttf"
   },
   {
-    "revision": "0aa791ad8b83f972a8daa5d86befdadd",
+    "revision": "0f784d9b5e96cbab097ddac6df6452f6",
     "url": "/Mansday-23/index.html"
   }
 ];
