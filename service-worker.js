@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Helavissa2022/precache-manifest.6abf8b2f8e10fc0289d1e2d1e62ca19e.js"
+  "/Mansday-23/precache-manifest.94d8e3bf132d202eba6f4863896271b9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Helavissa2022/index.html", {
+workbox.routing.registerNavigationRoute("/Mansday-23/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
