@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import classes from "./HomePage.module.css"
 import "../UI/Mobile.css"
+import Img from '../UI/Img';
 class HomePage extends Component {
   render() {
     
@@ -20,11 +21,14 @@ class HomePage extends Component {
         
         <div className= {classes.main}>
           
-  <div className= {classes.article}><p >💥23 февраля!💥</p></div>
+  <div className= {classes.article}><span role="img" aria-label="emoji name">💥23 февраля!💥</span></div>
   <div className= {classes.article}><img src={imgUrl} width={100} alt={imgAlt} /></div>
   <div className= {classes.article}><audio controls src={frontAudio} type="audio/mpeg" /></div>
   
-  <div className= {classes.article}><img  style={{ marginTop:"1em"}} src={imgTzi} width={100} alt="Каверы Подземки" /> </div>
+  <div className= {classes.article}>
+    {/* <img  style={{ marginTop:"1em"}} src={imgTzi} width={100} alt="Каверы Подземки" /> */}
+    <Img style={{ marginTop:"1em"}} imgUrl={imgTzi} imgAlt="Каверы Подземки"/>
+     </div>
 </div>
       </div>
         </div>

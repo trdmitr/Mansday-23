@@ -13,8 +13,8 @@ export default class Img extends React.Component{
  componentDidMount() { 
   const app = async () => {
     if (!this.props.imgUrl){
-      return <Loader/>; }
-     fetch(this.props.imgUrl)
+      return (  setTimeout(() => <Loader />, 8000)) }
+     await fetch(this.props.imgUrl)
      .then(function (response) {
       if (response.status !== 200) {
         return Promise.reject(new Error(response.statusText))
@@ -31,12 +31,12 @@ export default class Img extends React.Component{
   app()
 }
     render() {
-      if (!this.state.url) {
-        return (
-          setTimeout(() =>
-            <Loader />, 1000)
-        )
-      }
+      // if (!this.state.url) { return (  setTimeout(() => <Loader />, 1000))}
+       
+        
+           
+        
+      
   // console.log(this.state.url)
 	return <img src = {this.state.url} alt={this.props.imgAlt}/>;
 	}   

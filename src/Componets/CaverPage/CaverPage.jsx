@@ -39,8 +39,8 @@ class CaverPage extends React.Component {
               <div className={classes.column50}>
                 {
                   this.props.songs.map((song) => (
-                    <div className={classes.media}
-                      key={song.id} >
+                    <div key={song.id}  className={classes.media}
+                      >
                       <div className={classes.mediaImage_modal} onClick={() => {
                         this.handleShowDialog(song.id);
                       }} >
