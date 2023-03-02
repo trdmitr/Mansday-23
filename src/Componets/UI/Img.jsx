@@ -31,12 +31,7 @@ export default class Img extends React.Component{
   app()
 }
     render() {
-      // if (!this.state.url) { return (  setTimeout(() => <Loader />, 1000))}
-       
-        
-           
-        
-      
+      // if (!this.state.url) { return (  setTimeout(() => <Loader />, 1000))}  
   // console.log(this.state.url)
 	return <img src = {this.state.url} alt={this.props.imgAlt}/>;
 	}   

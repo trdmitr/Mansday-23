@@ -30,14 +30,20 @@ class CaverPage extends React.Component {
   handleHideDialog = () => {
     this.setState({ ...this.state, show: false });
   };
-  render() {
+  render() { 
+    const songsEror = this.props.songsEror
+   if (!this.props.songs) {
+    return (
+      <h1 style={{ backgroundColor: "white" }}> Ошибка загрузки!</h1>
+    )
+   }
     return (
       <div className="device device-iphone-x">
         <div className="device-frame">
           <div className="device-content">
             <div className={classes.row}>
               <div className={classes.column50}>
-                {
+                { 
                   this.props.songs.map((song) => (
                     <div key={song.id}  className={classes.media}
                       >
@@ -87,7 +93,9 @@ class CaverPage extends React.Component {
                   )
                 }
                 <div>                 
-                  {playList(this.props.songs)}
+                  {playList(this.props.songs)} 
+                  </div>
+                  <div> 
                   <Link to="/">
                     <button className={classes.btnHome}>Home</button>
                   </Link>
